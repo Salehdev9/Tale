@@ -1,0 +1,410 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="./tale.css">
+  <link rel="stylesheet" href="./tale-responsive.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tale</title>
+</head>
+
+<body>
+  <main>
+    <!-- Header -->
+    <div id="header" class="col">
+      <div id="logo-container" class="col-6 col-lg-5">
+        <img src="./logo.png" alt="Logo" id="logo">
+      </div>
+
+      <div id="hamburger-menu-container">
+        <img src="./hamburger-menu.png" alt="Hamburger menu icon" id="hamburger-btn" onclick="closeHamburger()">
+        <img src="./close-btn.png" alt="Close button icon" id="close-btn" onclick="closeCloseBtn()">
+      </div>
+
+      <div id="hamburger-navbar">
+        <div class="ham-nav-btns-container">
+
+          <a href="#intro">
+            <div class="ham-nav-btns">HOME</div>
+          </a>
+        </div>
+
+        <div class="ham-nav-btns-container">
+          <a href="#services">
+            <div class="ham-nav-btns">SERVICES</div>
+          </a>
+        </div>
+
+        <div class="ham-nav-btns-container">
+          <a href="#projects">
+            <div class="ham-nav-btns">PROJECTS</div>
+          </a>
+        </div>
+
+        <div class="ham-nav-btns-container">
+          <a href="#">
+            <div class="ham-nav-btns">PAGES</div>
+          </a>
+        </div>
+
+        <div class="ham-nav-btns-container">
+          <a href="#info">
+            <div class="ham-nav-btns">INFOS</div>
+          </a>
+        </div>
+
+        <div class="ham-nav-btns-container">
+          <a href="#contact-us">
+            <div class="ham-nav-btns">CONTACT</div>
+          </a>
+        </div>
+
+      </div>
+    </div>
+
+
+
+
+
+
+    <div id="navbar" class="col-5 col-lg-5">
+      <a href="#intro" class="nav-btn">
+        <li>HOME</li>
+      </a>
+
+      <a href="#services" class="nav-btn">
+        <li>SERVICES</li>
+      </a>
+
+      <a href="#projects" class="nav-btn">
+        <li>PROJECTS</li>
+      </a>
+
+      <a href="#" class="nav-btn">
+        <li>PAGES</li>
+      </a>
+
+      <a href="#info" class="nav-btn">
+        <li>INFOS</li>
+      </a>
+
+      <a href="#contact-us" class="nav-btn">
+        <li>CONTACT</li>
+      </a>
+    </div>
+    </div>
+
+
+    <!-- Intro Section -->
+    <section id="intro">
+      <div id="intro-text" class="col-6">
+        <h5 id="intro-heading">SEO DIGITAL AGENCY</h5>
+        <div id="hr"></div>
+        <h1 id="intro-sub-heading">Dive <span style="color: rgb(91, 3, 228);">Into The SEO</span> World <span
+            style="color: rgb(192, 58, 254);">With Tale</span></h1>
+        <p id="intro-paragraph">Tale is the best SEO agency website template using Bootstrap v5.2.2 CSS for your
+          company. It is a free download provided by TemplateMo. There are 3 HTML pages, <span style="color: rgb(10, 88, 202)
+;">Home</span>, <span style="color: rgb(10, 88, 202)
+;">About</span>, and <span style="color: rgb(10, 88, 202)
+;">FAQ</span>.</p>
+        <div id="intro-btns-section">
+          <button id="discover-more">Discover More</button>
+          <h5 id="or" style="margin-top: 10px;">or</h5>
+          <button id="check-our-faqs">Check Our FAQs</button>
+        </div>
+      </div>
+      <div id="intro-bg-img">
+        <img src="./intro-bg-left.png" alt="Background image" id="into-bg-left">
+        <img src="./intro-bg-right.png" alt="Background image" id="into-bg-right">
+      </div>
+    </section>
+
+
+
+    <!-- Services Section -->
+    <section id="services">
+      <div id="services-text">
+        <h3 id="we-provide">
+          We Provide <span style="color: rgb(91, 3, 228);">Different Services</span> & <span
+            style="color: rgb(192, 58, 254);">Features</span> For Your Agency
+        </h3>
+        <div id="services-hr"></div>
+        <p id="services-lorem">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod.
+        </p>
+        <div class="services-cards-container">
+          <div class="services-cards">
+            <img class="services-card-icon" src="./services-card-1.jpg" alt="Icon">
+            <h5 class="services-card-heading">Discover More on current SEO Trends</h5>
+          </div>
+
+          <div class="services-cards">
+            <img class="services-card-icon" src="./services-card-2.jpg" alt="Icon">
+            <h5 class="services-card-heading">Real-Time Big Data Analysis</h5>
+          </div>
+
+          <div class="services-cards">
+            <img class="services-card-icon" src="./services-card-3.jpg" alt="Icon">
+            <h5 class="services-card-heading">Precise Data Analysis & Prediction</h5>
+          </div>
+
+          <div class="services-cards">
+            <img class="services-card-icon" src="./services-card-4.jpg" alt="Icon">
+            <h5 class="services-card-heading">SEO Marketing & Social Media</h5>
+          </div>
+        </div>
+      </div>
+      <div id="services-bg-imgs">
+        <img src="./services-bg-img-left.jpg" alt="Background-img" id="services-bg-left">
+        <img src="./services-bg-img-right.jpg" alt="Background-img" id="services-bg-right">
+      </div>
+    </section>
+
+
+    <!-- Projects -->
+    <section id="projects">
+      <div id="projects-text">
+        <h3 id="discover-our-work">
+          Discover Our <span style="color: rgb(91, 3, 228);">Work</span> & <span
+            style="color: rgb(192, 58, 254);">Projects</span>
+        </h3>
+        <div id="projects-hr"></div>
+        <p id="projects-lorem">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod.
+        </p>
+      </div>
+
+      <!-- Cards container -->
+
+      <div id="cards-container">
+        <div class="cards card1">
+          <div class="card-img">
+            <img class="card-img" src="./projects-01.jpg" alt="Projects Bg Img">
+            <div class="card-bottom">
+              <h5 class="card-text col-lg-12">
+                Mobile Friendly <br> Website Layouts
+              </h5>
+
+              <div class="card-btn">
+                <i class="fa fa-link" style="font-size:36px;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+
+        <div class="cards card2">
+          <div class="card-img">
+            <img class="card-img" src="./projects-02.jpg" alt="Projects Bg Img">
+            <div class="card-bottom">
+              <h5 class="card-text col-lg-12">
+                Digital Agency <br> HTML Templates
+              </h5>
+
+              <div class="card-btn">
+                <i class="fa fa-link" style="font-size:36px;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cards card3">
+          <div class="card-img">
+            <img class="card-img" src="./projects-03.jpg" alt="Projects Bg Img">
+            <div class="card-bottom">
+              <h5 class="card-text col-lg-12">
+                Bootstrap 5 Themes For Free
+              </h5>
+
+              <div class="card-btn">
+                <i class="fa fa-link" style="font-size:36px;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+        <div class="cards card4">
+          <div class="card-img">
+            <img class="card-img" src="./projects-04.jpg" alt="Projects Bg Img">
+            <div class="card-bottom">
+              <h5 class="card-text col-lg-12">
+                Best Responsive <br> Website Layouts
+              </h5>
+
+              <div class="card-btn">
+                <i class="fa fa-link" style="font-size:36px;"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+    </section>
+
+
+
+    <!-- Info Container -->
+    <section id="info">
+      <div id="info-cards-container">
+        <div id="info-img-container">
+          <img id="info-left-bg-img" src="./left-infos.jpg" alt="Background Image">
+        </div>
+        <div id="info-text-container">
+
+          <h2 id="more-about-us">More <span style="color: rgb(91, 3, 228);">About Us</span> & What <span
+              style="color: rgb(192, 58, 254);">We Offer</span></h2>
+          <div id="info-hr"></div>
+          <p id="info-paragraph">
+            You are free to use this template for any purpose. You are not allowed to redistribute the downloadable ZIP
+            file of Tale SEO Template on any other template website. Please <span
+              style="color: rgb(61, 61, 254);">contact us</span>. Thank you.
+          </p>
+
+          <div id="info-ranges">
+            <div id="marketing-range">
+              <div id="marketing-text">
+                <h6 id="marketing">Marketing</h6>
+                <h6 id="ninety-percent">90%</h6>
+              </div>
+              <div id="marketing-ranges">
+                <div id="gray-range1"></div>
+                <div id="purple-range1"></div>
+              </div>
+            </div>
+
+
+            <div id="digitalmedia-range">
+              <div id="digitalmedia-text">
+                <h6 id="digitalmedia">Digital Media</h6>
+                <h6 id="eighty-percent">80%</h6>
+              </div>
+              <div id="digitalmedia-ranges">
+                <div id="gray-range2"></div>
+                <div id="purple-range2"></div>
+              </div>
+            </div>
+
+            <div id="social-media-managing-range">
+              <div id="social-media-managing-text">
+                <h6 id="social-media-managing">Social Media Managing</h6>
+                <h6 id="ninety-five-percent">95%</h6>
+              </div>
+              <div id="social-media-marketing-ranges">
+                <div id="gray-range3"></div>
+                <div id="purple-range3"></div>
+              </div>
+            </div>
+          </div>
+
+          <p id="info-lorem">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed doers eiusmod tempor incididunt ut labore et
+            dolore dolor dolor sit amet, consectetur adipiscing elit, sed doers eiusmod.
+          </p>
+        </div>
+      </div>
+    </section>
+
+
+    <!-- Contact Us Section -->
+    <section id="contact-us">
+      <img id="contact-us-bg-img1" src="./services-bg-img-right.jpg">
+      <img id="contact-us-bg-img2" src="./services-bg-img-right.jpg">
+      <div id="map-form-container">
+        <div>
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d27279.753125249368!2d-80.118781!3d25.952478!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9add4b4ac788f%3A0xe77469d09480fcdb!2sSunny%20Isles%20Beach!5e1!3m2!1sen!2sth!4v1748238452516!5m2!1sen!2sth"
+            width="350" height="650" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade" id="map"></iframe></iframe>
+        </div>
+        <div id="form-container">
+          <h2 id="contact-us-and-get">
+            <span style="color: rgb(91, 3, 228);">Contact Us</span> & Get In <span
+              style="color: rgb(192, 58, 254);">Touch</span>
+          </h2>
+
+          <form action="" id="form" class="">
+            <input type="text" placeholder="Your Name..." id="your-name" class="field col-xl-5">
+            <input type="text" placeholder="Your Surame..." id="your-surname" class="field"> <br>
+
+
+            <input type="text" placeholder="Your Email..." id="your-email" class="field field col-xl-5">
+            <input type="text" placeholder="Subject..." id="subject" class="field"> <br>
+
+            <textarea id="textarea" placeholder="Your Message"></textarea><br>
+
+            <button type="submit" id="submit">
+              Send Message Now
+            </button>
+
+
+          </form>
+
+          <div id="contact-info" class="container-fluid">
+            <div id="phone">
+              <i class="fa fa-phone" style="font-size:40px;"></i>
+              <h6 id="contact-number">
+                010-020-0340
+              </h6>
+            </div>
+            <div id="email">
+              <i class="fa fa-envelope" style="font-size:35px;"></i>
+              <h6 id="email-address">
+                info@company.com
+              </h6>
+            </div>
+            <div id="location">
+              <i class="fa fa-map-marker" id="map-icon" style="font-size:35px;"></i>
+              <h6 id="location-address">
+                Sunny Isles Beach, FL 33160,<br>
+                United States
+              </h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+
+  <script>
+    // Hamburger menu navbar
+    let hamburgerIcon = document.getElementById("hamburger-btn");
+    let closeBtn = document.getElementById("close-btn");
+    let hamburgerNavbar = document.getElementById("hamburger-navbar");
+
+    function closeHamburger() {
+      hamburgerIcon.style.display = "none";
+      closeBtn.style.display = "block";
+      hamburgerNavbar.style.display = "block";
+    }
+
+    function closeCloseBtn() {
+      hamburgerIcon.style.display = "block";
+      closeBtn.style.display = "none";
+      hamburgerNavbar.style.display = "none";
+    }
+
+
+  </script>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+    integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</body>
+
+</html>
