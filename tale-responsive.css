@@ -402,6 +402,10 @@
    *{
      border: 2px solid black;
    }
+
+  header{
+    width: 423px;
+  }
   
   body{
     border: 2px solid red;
@@ -478,7 +482,7 @@
   }
 
   #hr{
-    margin-left: 75px;
+    margin-left: 65px;
   }
 
   #intro-sub-heading{
@@ -487,14 +491,14 @@
   }
 
   #intro-paragraph{
-    width: 350px;
+    width: 300px;
     margin-bottom: 40px;
     line-height: 1.9;
     text-align: justify;
   }
 
   #intro-btns-section{
-    width: 350px;
+    width: 300px;
   }
 
   #discover-more{
