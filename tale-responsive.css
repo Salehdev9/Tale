@@ -399,9 +399,6 @@
 
 /* Mobile L */
 @media screen and (min-width: 376px) and (max-width:426px){
-   *{
-     border: 2px solid black;
-   }
 
   header{
     width: 80px;
@@ -715,7 +712,6 @@
 /* Mobile M */
 @media screen and (min-width: 321px) and (max-width:376px){
   body{
-    border: 2px solid yellow;
     overflow-x: hidden !important;
   }
 
@@ -1018,7 +1014,6 @@
 @media screen and (max-width:320px){
   
   body{
-    border: 2px solid blue;
     overflow-x: hidden !important;
   }
 
