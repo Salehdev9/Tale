@@ -495,7 +495,7 @@
   }
 
   #intro-btns-section{
-    width: 300px;
+    width: 350px;
   }
 
   #discover-more{
@@ -558,7 +558,7 @@
 
   .services-cards{
     background-color: rgba(255, 255, 255, 0.961);
-    width: 88%;
+    width: 90%;
     z-index: 10;
   }
 
@@ -647,10 +647,6 @@
 
   #ninety-five-percent{
     left: -10px;
-    bottom: -20px
-  }
-
-  #contact-us{
   }
 
   #contact-us-bg-img1,
@@ -660,12 +656,12 @@
 
 
   #map-form-container{
-    margin-left: 30px;
+    margin-left: 40px;
     width: 305px;
     flex-direction: column;
     padding: 30px 25px;
     background-color: white;
-    height: 1830px;
+    height: 1850px;
   }
 
   #map{
