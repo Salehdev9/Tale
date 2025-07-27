@@ -496,6 +496,7 @@
 
   #intro-btns-section{
     width: 350px;
+    border: 2px solid red;
   }
 
   #discover-more{
@@ -560,6 +561,7 @@
     background-color: rgba(255, 255, 255, 0.961);
     width: 90%;
     z-index: 10;
+    border: 2px solid red;
   }
 
   .services-cards h5{
@@ -647,6 +649,7 @@
 
   #ninety-five-percent{
     left: -10px;
+    border: 2px solid red;
   }
 
   #contact-us-bg-img1,
@@ -662,6 +665,7 @@
     padding: 30px 25px;
     background-color: white;
     height: 1850px;
+    border: 2px solid red;
   }
 
   #map{
